@@ -1,0 +1,43 @@
+#pragma once
+#include "Enemy.h"
+#include <vector>
+
+// Boss µÄ½×¶ÎÅäÖÃ
+struct BossPhase {
+    int duration;           // ³ÖÐøºÁÃë
+    MoveStrategy moveLogic; // ¸Ã½×¶ÎÔõÃ´¶¯
+    std::vector<BarrageTask> tasks; // ¸Ã½×¶Îµ¯Ä»
+    int spellID; 
+    bool isSpellCard;
+    int phaseHp;
+    int waitTime;
+
+    BossPhase(int _hp, int _time, MoveStrategy _move, bool _isSpell = false, int _spellID = 0, int _wait = 2000)
+        : phaseHp(_hp), duration(_time), moveLogic(_move), isSpellCard(_isSpell), spellID(_spellID), waitTime(_wait) {
+    }
+};
+
+class Boss : public Enemy {
+private:
+    std::vector<BossPhase> phases;
+    int currentPhaseIdx;
+    DWORD phaseStartTime;
+    bool tasksLoaded; 
+    void loadCurrentPhase();
+    void nextPhase();
+
+public:
+    
+    std::function<void(float x, float y, int effectID)> onEvent;
+
+    Boss(float _x, float _y);
+
+    void addPhase(BossPhase p);
+    void move() override; 
+
+    bool isSpellCardState() const;
+    int getSpellID() const;
+    float getTimeLeftRate() const; 
+    int getPhaseMaxHp() const;
+    int getPhaseTimeLeft() const;
+};

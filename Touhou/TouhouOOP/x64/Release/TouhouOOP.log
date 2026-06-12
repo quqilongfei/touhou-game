@@ -1,0 +1,41 @@
+﻿  Audio.cpp
+  Background.cpp
+  Barrage.cpp
+  Boss.cpp
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(243,55): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(243,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(263,61): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(263,57): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(282,61): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(282,57): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(299,55): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(299,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(320,55): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(320,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(340,65): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(340,55): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(353,55): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(353,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(366,50): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(433,54): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(433,50): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  Bullet.cpp
+  Effect.cpp
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Effect.cpp(90,32): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Effect.cpp(101,17): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Effect.cpp(110,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Effect.cpp(149,32): warning C4018: “>=”: 有符号/无符号不匹配
+  Enemy.cpp
+  EnemyManager.cpp
+  Game.cpp
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Game.cpp(533,35): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Game.cpp(780,13): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  Hero.cpp
+  Item.cpp
+  Main.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\Barrage.cpp(73): warning C4715: “Barrage::getRect”: 不是所有的控件路径都返回值
+  All 1960 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  TouhouOOP.vcxproj -> C:\Users\ASUS\Desktop\1组 5-高级语言创新实践-应用系统（能力层\Touhou0.3\Touhou\x64\Release\TouhouOOP.exe
